@@ -12,7 +12,7 @@ var OffcanvasMuscle = window.OffcanvasMuscle = (function(window, document, undef
 
   OffcanvasMuscle.prototype = {
     attachEvents: function() {
-      let _self = this;
+      var _self = this;
       this.triggerElement.addEventListener("click", function() {
         _self.toggleMenu();
       });
